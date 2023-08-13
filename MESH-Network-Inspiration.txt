@@ -1,0 +1,27 @@
+
+
+A radio mesh network (or wireless mesh network) is a network architecture where nodes are all dynamically interconnected and can cooperate with each other to route data packets. The main technical characteristics of this type of network are:
+
+1. **Dynamic Topology**: In a mesh network, nodes can join or leave the network at any time. Therefore, the network topology is dynamic and self-organized.
+
+2. **Multi-Hops**: Data packets can be transmitted from a source node to a destination node using several intermediaries. This is one of the main features that distinguishes a mesh network from point-to-point or star networks.
+
+3. **Routing**: Nodes in a mesh network have the capability to perform routing. They can decide the best path to route a packet based on various criteria (e.g., number of hops, signal quality).
+
+4. **Redundancy**: Due to its meshed topology, the network offers redundancy. If one path or node fails, the network can reroute packets via another path.
+
+5. **Adaptability**: Mesh networks are highly adaptable to environmental or topology changes, making them ideal for situations where infrastructure might be unpredictable or constantly evolving.
+
+6. **Security**: Mesh networks can be configured to offer enhanced security, including data encryption, node authentication, etc.
+
+7. **Extended Range**: Using the multi-hop principle, a mesh network can cover a large geographic area, with each node acting as a relay to extend the network's reach.
+
+8. **Density and Capacity**: Mesh networks can handle a large number of nodes, which is ideal for applications such as smart cities or large events.
+
+9. **Underlying Technologies**: Radio mesh networks can be implemented using various radio technologies, including WiFi, Zigbee, LoRa, among others.
+
+10. **Varied Applications**: Due to their unique characteristics, mesh networks are used in a variety of applications, from surveillance systems to sensor networks to connectivity solutions in rural areas.
+
+In summary, radio mesh networks offer flexibility, robustness, and adaptability that make them ideal for many scenarios where traditional connectivity might be challenging.
+
+---
