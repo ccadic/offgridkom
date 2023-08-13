@@ -10,19 +10,20 @@ The project is to develop an electronic board (communicator) capable of sending 
 **Specifications
 **
 
-Specifications of the "OffGridKom BC" board
-The OffGridKom board has the following technical specifications:
-Micro-controller ESP32S3 Wroom 1
-ST7789 320x172 Color Display
-RAKWireless RAK3172 Radio Micro-controller – 868 MHZ*
-RainSun 868 MHZ ceramic antenna
-T9Word alphanumeric keypad for composing messages
-USB-C connection (compatible with external keyboard)
-Two micro-switches for ESP32 reset and boot mode
-An additional micro-switch for custom function
-Board format: Exactly the size of a credit card
-Weight: Approximately 20 grams
+  Specifications of the "OffGridKom BC" board
+  The OffGridKom board has the following technical specifications:
+  Micro-controller ESP32S3 Wroom 1
+  ST7789 320x172 Color Display
+  RAKWireless RAK3172 Radio Micro-controller – 868 MHZ*
+  RainSun 868 MHZ ceramic antenna
+  T9Word alphanumeric keypad for composing messages
+  USB-C connection (compatible with external keyboard)
+  Two micro-switches for ESP32 reset and boot mode
+  An additional micro-switch for custom function
+  Board format: Exactly the size of a credit card
+  Weight: Approximately 20 grams
 
+<img src="https://github.com/ccadic/offgridkom/blob/main/sulfuroid_A_close_portrait_of_a_modern_dark_purple_hair_glamour_3bb2f303-f06c-4190-96b3-a40f14463b5a.png">
 
 
 The hardware project is proprietary at the moment until we find a way to get a return on all the money invested. 
