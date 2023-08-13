@@ -31,6 +31,8 @@ The software is GPL3
 
 Want to help for this huge project
 TRC-20 USDT: TDbLJ5nTvzbaaSs21Cmf1Lwvhmc5t9W18f
+
 Polygon Matic: 0xA7Cb711124e1Be5cad35aABB5d8a29b6dfdfc594
+
 BTC: bc1q6acuv0ghnh743qp8wcz24zkla2h3pa0cxap7zf
 
