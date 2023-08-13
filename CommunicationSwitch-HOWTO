@@ -1,0 +1,26 @@
+
+
+Scanning Available Protocols:
+
+Use the ESP32 microcontroller's built-in capabilities to scan for nearby WiFi networks and ESP-NOW devices.
+Employ the RAKWireless RAK3172 to scan for available LoRa and LoRaWAN signals.
+If Bluetooth is enabled, scan for nearby Bluetooth devices too.
+Defining and Testing Priorities:
+
+After scanning, rank available protocols based on the set priorities (ESP-NOW, LoRa, LoRaWAN, WiFi, smartphone).
+Test the device's ability to switch between protocols based on signal availability and quality.
+Implementing Selection Process:
+
+Choose the highest-priority protocol based on scanning results.
+Implement switch-over routines for the device to change protocols if the chosen signal weakens or becomes unavailable.
+Integration with a Smartphone:
+
+If paired with a smartphone via Bluetooth, enable the device to use the smartphone's cellular network as a gateway. This might require the development of a simple mobile app to aid communication between the device and smartphone.
+User Interface (UI):
+
+On the ST7789 screen, clearly display the protocol currently in use by the device.
+In the menu system, allow users to set preferences, such as enforcing the use of a specific protocol or changing protocol priority order.
+Testing:
+
+Thoroughly test in various environments and scenarios to ensure the device correctly switches between protocols based on priorities and availability.
+Overall, this hybrid communication approach provides significant flexibility and resilience to your device. With the ability to switch between different protocols, the device can maintain near-constant connectivity, which is essential for such a communicator.
