@@ -1,0 +1,45 @@
+Peer 2 Peer protocole ideas
+First concept
+
+Here is a general strategy you might adopt:
+
+Node Discovery and Network Maintenance:
+
+Each node should be capable of discovering other nodes nearby through WiFi or radio communication.
+Nodes should periodically share their routing tables to keep the network topology updated.
+Routing Table:
+
+Each node maintains a routing table that contains information about neighboring nodes and the shortest paths to reach other nodes.
+ERC-20 addresses can be used as unique identifiers for each node.
+Message Transmission:
+
+Messages contain the ERC-20 destination address, the source, the message content, and perhaps a type of TTL (Time-to-Live) to prevent messages from circulating indefinitely in the network.
+Each node checks the message's destination. If the node is the destination, it processes the message; otherwise, it forwards it to the best neighboring node based on its routing table.
+The choice of the "best" neighboring node might be based on proximity, signal quality, number of hops, etc.
+Mode of Transmission Selection:
+
+Each node decides to transmit a message via WiFi or radio based on factors such as range, availability, congestion, etc.
+If a node has internet access, it could use that to transmit messages to nodes that are far away or out of direct range, perhaps using a relay server or a messaging service.
+Message Relay:
+
+If a message needs to reach a node out of direct range, intermediary nodes act as relays to route the message to its destination.
+This requires robust routing logic to avoid loops and ensure message delivery.
+Reliability and Acknowledgment:
+
+You'd probably want to implement some sort of acknowledgment to confirm the reception of messages.
+This might include techniques to handle retransmissions in case of delivery failure.
+Security:
+
+The use of ERC-20 addresses is an interesting idea, especially if you incorporate some form of digital signature to authenticate and secure the messages.
+Messages can be signed using the private key corresponding to the ERC-20 address, and other nodes can verify this signature with the address/pubkey.
+Scaling and Congestion Management:
+
+In a large network with many nodes, congestion can become an issue.
+Techniques like flow control, rate limiting, and message prioritization might be necessary.
+Interfacing with Other Networks:
+
+If certain nodes have additional interconnection capabilities (e.g., satellite link, LTE), they could act as gateways to route traffic to and from other networks.
+Tests and Simulations:
+
+Before deploying, it would be beneficial to simulate the protocol in various scenarios to identify potential issues and optimize performance.
+This is a high-level overview, and there are many details and technical considerations to account for during implementation. It would also be wise to consult existing P2P protocols for ideas and best practices.
