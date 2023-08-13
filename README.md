@@ -30,6 +30,7 @@ The hardware project is proprietary at the moment until we find a way to get a r
 The software is GPL3
 
 Want to help for this huge project
+
 TRC-20 USDT: TDbLJ5nTvzbaaSs21Cmf1Lwvhmc5t9W18f
 
 Polygon Matic: 0xA7Cb711124e1Be5cad35aABB5d8a29b6dfdfc594
